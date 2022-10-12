@@ -1,0 +1,110 @@
+/* Write CSS here */
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  height: 100vh;
+  padding: 100px;
+  background-size: cover;
+}
+
+.heading {
+  font-size: 40px;
+  font-family: 'Roboto';
+}
+
+.stop-watch-container {
+  width: 30%;
+  background-color: #ffffff;
+}
+.card-container {
+  width: 100%;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border: 0px solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 40vh;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  text-align: center;
+}
+.timer-container {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+}
+
+.timer-logo {
+  height: 2vh;
+  margin-right: 3px;
+  margin-top: 3px;
+}
+
+.btn-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-style-one {
+  background-color: #1db05f;
+  border: 0px;
+  color: #ffffff;
+  width: 80px;
+  height: 3vh;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.btn-style-two {
+  background-color: #ef0d36;
+  border: 0px;
+  color: #ffffff;
+  width: 80px;
+  height: 3vh;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.btn-style-three {
+  background-color: #eaa800;
+  border: 0px;
+  color: #ffffff;
+  width: 80px;
+  height: 3vh;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.time {
+  font-size: 50px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+@media screen and (max-width: 576px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+    height: 100vh;
+    background-size: cover;
+  }
+  .stop-watch-container {
+    width: 100%;
+    background-color: #ffffff;
+  }
+  .card-container {
+    width: 100%;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border: 0px solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 40vh;
+  }
+}
